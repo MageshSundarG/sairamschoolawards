@@ -4,7 +4,7 @@ import Footer from '@components/Footer';
 
 export default function Home() {
   return (
-    <div className="container">
+    <main>
       <Head>
         <title>Sairam School Awards 2022</title>
         <link rel="icon" href="/favicon.ico" />
@@ -12,14 +12,14 @@ export default function Home() {
       </Head>
 
       <iframe
-        class="airtable-embed airtable-dynamic-height"
+        className="airtable-embed airtable-dynamic-height"
         src="https://airtable.com/embed/shreGsqHV7ztONvKr?backgroundColor=cyan"
         frameborder="0"
         onmousewheel=""
         width="100%"
-        height="743"
+        height="761"
         style={{ background: 'transparent', border: '1px solid #ccc' }}
       ></iframe>
-    </div>
+    </main>
   );
 }
